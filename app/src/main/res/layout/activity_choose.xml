@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/material_dynamic_primary30"
+    tools:context=".ChooseGameRuleAct"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn3x3"
+        android:layout_width="300sp"
+        android:layout_height="200sp"
+        android:backgroundTint="@color/my_3x3_btn_clr"
+        android:text="3X3"
+        android:textSize="50sp"/>
+
+    <Button
+        android:id="@+id/btn4x4"
+        android:layout_width="300sp"
+        android:layout_height="200sp"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="@color/my_4x4_btn_clr"
+        android:text="4X4"
+        android:textSize="50sp"/>
+
+</LinearLayout>

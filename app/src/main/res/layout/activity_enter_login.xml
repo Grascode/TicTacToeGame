@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/material_dynamic_primary30"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:gravity="center"
+    tools:context=".EnterLogin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/my_3x3_btn_clr"
+            android:text="@string/firstPlayerName"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:inputType="text"
+            android:id="@+id/etFirstName"
+            />
+        <TextView
+            android:textSize="25sp"
+            android:textColor="@color/my_3x3_btn_clr"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_height="wrap_content"
+            android:text="@string/secondPlayerName"
+            />
+        <EditText
+            android:layout_marginTop="30sp"
+            android:layout_width="300sp"
+            android:id="@+id/etSecondName"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+        <Button
+            android:backgroundTint="@color/my_3x3_btn_clr"
+            android:layout_width="300sp"
+            android:id="@+id/continueButton"
+            android:layout_height="wrap_content"
+            android:text="@string/continueLogin"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TicTacToeGame</string>
+    <string name="incorrect_data">неверное значение</string>
+    <string name="the_server_is_not_responding">сервер тютю</string>
+    <string name="fill_fields">Заполнить поля</string>
+    <string name="start_game">Кого ждём? Ставь крестик</string>
+    <string name="restart">Заново</string>
+    <string name="firstPlayerName">Введите имя 1 игрока</string>
+    <string name="secondPlayerName">Введите имя 2 игрока</string>
+    <string name="continueLogin">ПРОДОЛЖИТЬ</string>
+    <string name="continueBtn">ПРОДОЛЖИТЬ</string>
+</resources>
